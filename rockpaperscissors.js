@@ -6,8 +6,8 @@ for(let i = 0; i < 5 ; i++) {
 const getComputerChoice = ['rock','paper','scissor'];
 let playerSelection = prompt('Rock, Paper, Scissors GO!');
 
-const random = Math.floor(Math.random(-1,2) * getComputerChoice.length);
-const computerSelection = (random, getComputerChoice[random]);
+const random = Math.floor(Math.random() * getComputerChoice.length);
+const computerSelection = (getComputerChoice[random]);
 console.log(`Computer: ${computerSelection}`);
 console.log(`Player: ${playerSelection}`);
 
