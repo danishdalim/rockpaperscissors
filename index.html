@@ -3,10 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title> Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
         <script src="rockpaperscissors.js"></script>
+        <script src="dom.js" defer></script>
     </head>
     <body>
-        
+        <h1 class="title"> Rock, Paper, Scissors </h1>
+        <h2 class="title" id="status"> Choose your weapon </h2>
+
+        <div class="container">
+            <div >
+                <button type="button" id="btnrock" class="button"><img class="element" src="rock.png" alt="rock" width="264px" height="264px"></button>
+                <p class="description">Rock</p>
+            </div>
+            <div >
+                <button type="button" id="btnpaper" class="button"><img class="element" src="paper.png" alt="rock" width="264px" height="264px"></button>
+                <p class="description">Paper</p>
+            </div>
+            <div >
+                <button type="button" id="btnscissor" class="button"><img class="element" src="scissor.png" alt="rock" width="264px" height="264px"></button>
+                <p class="description">Scissor</p>
+            </div>
+        </div>
+        <div>
+            <div class="scoring">
+                <p> Player score: <a id="win">0</a></p>
+                <p> Computer score: <a id="lose">0</a></p>
+            </div>
+        </div>
+        <p class="credit"><a href="https://github.com/danishdalim">github.com/danishdalim</a> </p>        
     </body>
    
 
