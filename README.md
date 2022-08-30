@@ -1,2 +1,2 @@
 # rockpaperscissors
-A Rock, Paper, Scissors programming exercise from The Odin Project
+A Rock, Paper, Scissors programming project from The Odin Project
